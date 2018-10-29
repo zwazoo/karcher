@@ -349,22 +349,26 @@ textarea {
 	max-width:110%;
 }
 
-label {
-	display:block;
+.ba-buy__row {
+	margin-bottom:8.1%;
+	text-align: right;
 }
 
 .ba-buy__form {
 	width:53%;
 	padding-top: 5.8%;
+	padding-right: 7%;
 }
 
 .ba-buy__form span {
-	width: 35%;
-	display: inline-block;
-	text-align: right;
 	text-transform: uppercase;
 	font:700 11.62px/1 Roboto, sans-serif;
 	color:  #9fa3a7;
+	letter-spacing: 1.9px;
+}
+
+.ba-buy__form input {
+	width:65%;
 }
 
 
