@@ -203,8 +203,8 @@
 						<form action="#" method="post">
 							<div class="ba-buy__row">
 								<label>
-									<span class="ba-label">Имя и фамилия</span>
-									<input type="text" required name="Имя и фамилия">
+									<span class="ba-label" >Имя и фамилия</span>
+									<input type="text" required name="Имя и фамилия" pattern="[A-Za-zА-Яа-яЁё]{2,}\s[A-Za-zА-Яа-яЁё]{2,}">
 								</label>
 							</div>
 							<!-- /.ba-buy__row -->
@@ -212,7 +212,7 @@
 							<div class="ba-buy__row">
 								<label>
 									<span class="ba-label">Электронная почта</span>
-									<input type="email" name="Электронная почта">
+									<input type="email" name="Электронная почта" >
 								</label>
 							</div>
 							<!-- /.ba-buy__row -->
@@ -220,7 +220,7 @@
 							<div class="ba-buy__row">
 								<label>
 									<span class="ba-label">Телефон</span>
-									<input type="tel" name="Телефон">
+									<input type="tel" required name="Телефон" pattern="[0-9]{5,}">
 								</label>
 							</div>
 							<!-- /.ba-buy__row -->
@@ -242,7 +242,8 @@
 							<!-- /.ba-buy__row -->
 
 							<div class="ba-buy__submit">
-								&#9913;<span>Обязательные поля</span>
+								<img src="img/need.png" alt="">
+								<span>Обязательные поля</span>
 								<button type="submit" class="ba-buy__button">Отправить заказ</button>
 							</div>
 							<!-- /.ba-buy__submit-->
