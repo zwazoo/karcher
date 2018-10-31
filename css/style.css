@@ -251,7 +251,7 @@ select:focus {
 
 /* Characteristic */
 .ba-char {
-	background:url(../img/background.jpg) no-repeat 50% 0%;
+	background:url(../img/background.jpg) no-repeat 100% 50%;
 	margin-bottom: 78px;
 }
 
